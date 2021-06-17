@@ -5,7 +5,7 @@ import pga_data.mapping
 class stat:
     def __init__(self, statistical_category):
         """This class is setup to provide a means for someone to request a particular stat and then              it returns the url from PGATour.com to access the data."""
-        self._cat, self._url_number = pga_data.mapping.interpret_category(statistical_category)
+        self._cat, self._url_number = pga_data.mapping.interpret_stat(statistical_category)
         
         # Set base url for whenever url_number changes
         self.base_url = 'https://www.pgatour.com/stats/stat.{}.html'
@@ -19,7 +19,7 @@ class stat:
     
     @cat.setter
     def cat(self, new_cat):
-        self._cat, self.url_number = pga_data.mapping.interpret_category(new_cat)
+        self._cat, self.url_number = pga_data.mapping.interpret_stat(new_cat)
         
     @property
     def category(self):
@@ -38,5 +38,10 @@ class stat:
     def pull(self):
         """Function to pull data from pgatour.com and put into dataframe"""
         return pd.read_html(self.url)[1]
+    
+    @staticmethod
+    def stat_matches(statistical_category, number_of_matches=5):
+        pass
+    
 
 
