@@ -4,7 +4,7 @@ import datetime as dt
 import pga_data.mapping as mapping
 
 class stat:
-    def __init__(self, stat='', stat_id='0', year=dt.datetime.now().year):
+    def __init__(self, stat='', stat_id='0', season=dt.datetime.now().year, thru_tournament=None):
         """This class is setup to provide a means for someone to request a particular stat and then
         it returns the url from PGATour.com to access the data."""
         
@@ -12,7 +12,8 @@ class stat:
         self._stat, self._stat_id = self._update_stat(stat, str(stat_id))
                
         # Set url for initial class conditions
-        self.season = dt.datetime.now().year
+        self.season = dt.datetime.now().season
+        self.thru_tournament = thru_tournament
         self._set_url()
 
         
@@ -44,8 +45,7 @@ class stat:
             base_url = 'https://www.pgatour.com/content/pgatour/stats/stat.{}.y{}.html'
             self.url = base_url.format(self.stat_id, self.season)
             
-    
-    
+   
     @property
     def stat(self):
         return self._stat
