@@ -823,3 +823,67 @@ def combine_dicts(list_of_dicts=[]):
         
     # Return final dict
     return dict_combined
+
+####### Use the Following Functions for scraping data from pgatour.com ######
+# import statements (comment out when not using)
+from bs4 import BeautifulSoup
+import requests
+import time
+
+# Create function for finding years available for each stat
+def get_years(stat_id):
+    url = f'https://www.pgatour.com/stats/stat.{stat_id}.html'
+    select_class = "statistics-details-select statistics-details-select--season"
+    select_class_alt = "statistics-details-select custom-page"
+
+    # Get page content
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    try:
+        years = sorted([int(opt.text) for opt in soup.find(class_=select_class).find_all('option')])
+    except AttributeError:
+        years = sorted([int(opt.text) for opt in soup.find(class_=select_class_alt).find_all('option')])
+    return years
+
+def get_tourney_dropdown(stat_id):
+    # check for dropdown of tournaments
+    page = requests.get(f'https://www.pgatour.com/stats/stat.{stat_id}.html')
+    soup = BeautifulSoup(page.content, 'html.parser')
+    
+    select_class = "statistics-details-select statistics-details-select--tournament"
+    return soup.find(class_=select_class) is not None
+
+# Create function for finding tournaments/ids available for each stat
+def get_tourneys(stat_id, years=None, print_comments=False, check_for_dropdown=False):
+    # Find years if no provided
+    years = get_years(stat_id) if years is None else years
+
+    # select tourney class data
+    select_class = "statistics-details-select statistics-details-select--tournament"
+    
+    # loop thru years to create dict
+    tourney_map = {}  # initialize the dictionary
+    tourney_dropdown = get_tourney_dropdown(stat_id)
+    print(f'Starting {stat_id}:\n Added', end=' ') if print_comments else None
+    for year in years:
+        url = f'https://www.pgatour.com/content/pgatour/stats/stat.{stat_id}.y{year}.html'
+
+        # Get page content
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+
+        # Create dict
+        if tourney_dropdown:
+            sub_dict = {opt['value']: opt.text for opt in soup.find(class_=select_class).find_all('option')}
+        else:
+            sub_dict = 'No Tournaments'
+            
+        # Add dict to tourney_map
+        tourney_map[year] = sub_dict
+
+        print(f'{year}', end=', ') if print_comments else None
+        time.sleep(0.5)
+    
+    print(f'\nstat_id {stat_id} COMPLETE!!\n') if print_comments else None
+    return tourney_map
