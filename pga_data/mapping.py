@@ -308,12 +308,10 @@ scoring_map = {'Scoring Average': '120',
                'Scoring Average - Front 9 Round 2': '253',
                'Scoring Average - Front 9 Round 3': '261',
                'Scoring Average - Front 9 Round 4': '269',
-               'Scoring Average - Front 9 Round 5': '277',
                'Scoring Average - Back 9 Round 1': '246',
                'Scoring Average - Back 9 Round 2': '254',
                'Scoring Average - Back 9 Round 3': '262',
                'Scoring Average - Back 9 Round 4': '270',
-               'Scoring Average - Back 9 Round 5': '278',
                'Performance - Final Round': '219',
                'Performance - Final Round Top 10': '220',
                'Performance - Final Round Top 5': '309',
@@ -358,12 +356,10 @@ scoring_map = {'Scoring Average': '120',
                'Scoring Average - Early 1st Tee Start Round 2': '257',
                'Scoring Average - Early 1st Tee Start Round 3': '265',
                'Scoring Average - Early 1st Tee Start Round 4': '273',
-               'Scoring Average - Early 1st Tee Start Round 5': '281',
                'Scoring Average - Late 1st Tee Start Round 1': '251',
                'Scoring Average - Late 1st Tee Start Round 2': '259',
                'Scoring Average - Late 1st Tee Start Round 3': '267',
                'Scoring Average - Late 1st Tee Start Round 4': '275',
-               'Scoring Average - Late 1st Tee Start Round 5': '283',
                'Lowest Round - Early 1st Tee Start': '305',
                'Lowest Round - Late 1st Tee Start': '307',
                'Scoring Average - Early 10th Tee Start': '210',
@@ -378,12 +374,10 @@ scoring_map = {'Scoring Average': '120',
                'Scoring Average - Early 10th Tee Start Round 2': '258',
                'Scoring Average - Early 10th Tee Start Round 3': '266',
                'Scoring Average - Early 10th Tee Start Round 4': '274',
-               'Scoring Average - Early 10th Tee Start Round 5': '282',
                'Scoring Average - Late 10th Tee Start Round 1': '252',
                'Scoring Average - Late 10th Tee Start Round 2': '260',
                'Scoring Average - Late 10th Tee Start Round 3': '268',
                'Scoring Average - Late 10th Tee Start Round 4': '276',
-               'Scoring Average - Late 10th Tee Start Round 5': '284',
                'Lowest Round - Early 10th Tee Start': '306',
                'Lowest Round - Late 10th Tee Start': '308',
                'Par 3 Efficiency <100 Yards': '02517',
@@ -829,27 +823,43 @@ def combine_dicts(list_of_dicts=[]):
 from bs4 import BeautifulSoup
 import requests
 import time
+import json
 
 # Create function for finding years available for each stat
-def get_years(stat_id):
-    url = f'https://www.pgatour.com/stats/stat.{stat_id}.html'
+def get_years(stat_id, soup=None):
+    if soup is None:
+        url = f'https://www.pgatour.com/stats/stat.{stat_id}.html'
+
+        # Get page content
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+    
     select_class = "statistics-details-select statistics-details-select--season"
     select_class_alt = "statistics-details-select custom-page"
 
-    # Get page content
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-
+    # Website utilizes 2 different formats for selecting years
     try:
         years = sorted([int(opt.text) for opt in soup.find(class_=select_class).find_all('option')])
-    except AttributeError:
+        issue1 = False
+    except:
+        issue1 = True
+    try:
         years = sorted([int(opt.text) for opt in soup.find(class_=select_class_alt).find_all('option')])
-    return years
+        issue2 = False
+    except:
+        issue2 = True
+        
+    # If can't find years, assume none are available otherwise return from the try/except cases
+    if (issue1 & issue2):
+        return []
+    else: 
+        return years
 
-def get_tourney_dropdown(stat_id):
-    # check for dropdown of tournaments
-    page = requests.get(f'https://www.pgatour.com/stats/stat.{stat_id}.html')
-    soup = BeautifulSoup(page.content, 'html.parser')
+def get_tourney_dropdown(stat_id, soup=None):
+    if soup is None:
+        # check for dropdown of tournaments
+        page = requests.get(f'https://www.pgatour.com/stats/stat.{stat_id}.html')
+        soup = BeautifulSoup(page.content, 'html.parser')
     
     select_class = "statistics-details-select statistics-details-select--tournament"
     return soup.find(class_=select_class) is not None
@@ -887,3 +897,54 @@ def get_tourneys(stat_id, years=None, print_comments=False, check_for_dropdown=F
     
     print(f'\nstat_id {stat_id} COMPLETE!!\n') if print_comments else None
     return tourney_map
+
+# Function for extracting data and putting into proper form for stat_meta
+def write_stat_meta(maps=None, cats=None):
+    if maps is None:
+        maps = [shots_gained_map,
+                off_the_tee_map,
+                app_the_green_map,
+                around_the_green_map,
+                putting_map,
+                scoring_map,
+                streaks_map,
+                finishes_map,
+                rankings_map,
+                all_time_records_map]
+    if cats is None:
+        cats = ['Shots Gained',
+                'Off the Tee',
+                'Approach the Green',
+                'Around the Green',
+                'Putting',
+                'Scoring',
+                'Streaks',
+                'Money/Finishes',
+                'Points/Rankings',
+                'All-Time Records']
+        
+    # Create new dictionary with years and tournaments as options
+    all_map = {}
+    for m, c in zip(maps, cats):
+        print(f'Retrieving {c}...')
+        sub_map = []
+        for stat, stat_id in m.items():
+            # Create soup object to reduce number of times website is accessed
+            page = requests.get(f'https://www.pgatour.com/stats/stat.{stat_id}.html')
+            soup = BeautifulSoup(page.content, 'html.parser')        
+
+            # Append dictionary to list
+            sub_map.append({'stat name': stat, 
+                            'stat id': stat_id,
+                            'stat category': c,
+                            'years': get_years(stat_id, soup),
+                            'tournament option': get_tourney_dropdown(stat_id, soup)
+                           })
+            print(f'  {stat}')
+            time.sleep(5)
+        print(f'...{c} COMPLETE!\n')
+        all_map[c] = sub_map
+
+    # Write mapped files above to output file
+    with open('output.txt', 'w') as output:
+         output.write(json.dumps(all_map))
