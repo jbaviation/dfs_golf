@@ -57,23 +57,27 @@ class mapping:
         r = matches if all_data else [stat['stat name'] for stat in matches]
         return r
 
-    def list_stat(self, stat):
+    def list_stat(self, stat, from_id=False):
         """(NEW Verified) Function to find the relevent statistical category from the stat_search string.
             args: 
               stat (list or str) - statistic(s) to retrieve
+              from_id (bool)     - search thru stat ids instead of stat name
         """
-        all_stats = [stat['stat name'] for stat in self.stat_meta]
-
+        option = 'stat id' if from_id else 'stat name'
+        all_stats = [stat[option] for stat in self.stat_meta]
+        
         if isinstance(stat, list):
             # Clean up the search in case of typos
             matches = [difflib.get_close_matches(s, all_stats, n=1)[0] for s in stat]
-            return [d for d in self.stat_meta for m in matches if d['stat name']==m]
+            return [d for d in self.stat_meta for m in matches if d[option]==m]
         elif isinstance(stat, str):
             # Clean up the search in case of typos
             matches = difflib.get_close_matches(stat, all_stats, n=1)[0]
-            return [d for d in self.stat_meta if d['stat name']==matches][0]
+            return [d for d in self.stat_meta if d[option]==matches][0]
         else:
             raise TypeError('Unknown type entered into function')
+            
+
 
 def combine_dicts(list_of_dicts=[]):
     # In case list_of_dicts is a dict_value object, turn it into a list
