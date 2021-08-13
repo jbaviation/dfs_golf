@@ -69,5 +69,6 @@ class stat:
         return pd.read_html(self.url)[1]
     
 
-
+class player:
+    pass
 

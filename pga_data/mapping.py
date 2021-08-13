@@ -93,10 +93,11 @@ def combine_dicts(list_of_dicts=[]):
 
 ####### Use the Following Functions for scraping data from pgatour.com ######
 class make_meta:
-    # import statements (comment out when not using)
     from bs4 import BeautifulSoup
     import requests
     import time
+    import json
+    import re
 
     # Create function for finding years available for each stat
     @staticmethod
@@ -225,3 +226,49 @@ class make_meta:
         # Write mapped files above to output file
         with open('output.txt', 'w') as output:
              output.write(json.dumps(all_map))
+                
+                
+    @staticmethod
+    def make_player_meta():
+        """Function works to make the player_meta.json file"""
+        import re
+        page = requests.get('https://www.pgatour.com/players.html')
+        soup = BeautifulSoup(page.content, 'html.parser')
+        
+        inactive_class = {'class': 'player-card'}
+        active_class = {'class': 'player-card active'}
+
+        img_pre = 'https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,' + \
+                  'h_294,q_auto,w_220/headshots_{}.png'
+        list_players = []
+        for player in soup.find_all('li', attrs=inactive_class):
+            url = player.find(class_='player-link')['href']
+            find_id = re.findall(r'player\.(\d+)\.', url)[0]
+            player_dict = {'player last name': player.find(class_='player-surname').text,
+                           'player first name': player.find(class_='player-firstname').text,
+                           'player id': find_id,
+                           'url': 'https://www.pgatour.com'+url,
+                           'country': player.find(class_='player-country-title').text,
+                           'active': False,
+                           'image': img_pre.format(find_id)
+                          }
+            list_players.append(player_dict)
+            
+        for player in soup.find_all('li', attrs=active_class):
+            url = player.find(class_='player-link')['href']
+            find_id = re.findall(r'player\.(\d+)\.', url)[0]
+            player_dict = {'player last name': player.find(class_='player-surname').text,
+                           'player first name': player.find(class_='player-firstname').text,
+                           'player id': find_id,
+                           'url': 'https://www.pgatour.com'+url,
+                           'country': player.find(class_='player-country-title').text,
+                           'active': True,
+                           'image': img_pre.format(find_id)
+                          }
+            list_players.append(player_dict)
+            
+        # Write to json
+        with open('pga_data/data_files/player_meta.json', 'w') as output:
+            json.dump(list_players, output, indent=6)
+
+    
