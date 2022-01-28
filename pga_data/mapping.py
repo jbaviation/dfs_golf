@@ -10,7 +10,7 @@ class mapping:
     
     def load_metas(self):
         b_dir = 'pga_data/data_files'  # baseline directory for files
-        json_files = ['tourney_meta', 'stat_meta']  # files to load
+        json_files = ['tourney_meta', 'stat_meta', 'player_meta']  # files to load
         full_files = [os.path.join(b_dir, json_file+'.json') for json_file in json_files]  # combine dir and file
 
         # Loop thru each file and pull into json_files name

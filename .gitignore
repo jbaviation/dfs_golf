@@ -1,0 +1,19 @@
+# Ignore idea files
+.idea/
+
+# Ignore cache
+pga_data/__pycache__/
+*.pyc
+
+# Ignore Jupyter Checkpoints
+.ipynb_checkpoints/
+pga_data/.ipynb_checkpoints/
+pga_data/data_files/.ipynb_checkpoints/
+
+# Ignore Data files
+*.csv
+
+# Ignore personal use files
+output.txt
+Websites.txt
+license.txt
