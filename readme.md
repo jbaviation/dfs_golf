@@ -1,6 +1,6 @@
-# Fantasy Football Analysis and Workbook
+# Daily Fantasy Golf Webscraper and Analysis
 
-The goal of this project is to dominate my fantasy football leagues every year!
+I like to play daily fantasy golf through FanDuel. Hopefully, generating solid models will help pick high performing players each week.
 
 ## Installation
 
@@ -10,23 +10,23 @@ Required dependencies (currently):
 - Numpy
 - Pandas
 - BeautifulSoup
-- Yahoo-oauth
-- yahoo fantasy api
 
 ## Project Motivation and Purpose
 
-Draft preparation is ultimately the key to a successful fantasy season. This project was designed so that I could actively see projected data for each perspective player as they are picked in the draft. The football_analysis notebook should be run during the draft and updated based on the descriptions within the notebook. 
+This project started as a means to webscrape the PGATour.com website for player/tournament/historical data and has evolved into a desire for a tool that can generate worthwhile dfs lineup suggestions. Understanding statistics in golf to find hidden correlations is of particular interest to me; adding in the desire to generate a highly capable draft lineup, and you get the purpose of this project.
 
 ## Files
 
-**football_analysis.ipynb**: The file that is designed to be used during the live draft. It scrapes and pulls rankings performed by CBS, Sporting News, ESPN, and myself. These rankings are then compared on a per-player basis.
+**dfs_weekly.ipynb**: Week to week analysis of players available from different data sources to generate a weekly FanDuel lineup
+
+**golf_analysis.ipynb**: Initial project file that explored difference sources for data.
+
+**pgatour.ipynb**: Notebook to use for eventual project utilization. This notebook is now primarily used to test files/classes/functions that are located in the pga_data subfolder but will be the focal notebook once analysis is to be performed.
+
+**pga_data/mapping.py**: File to be utilized for proper mapping between desired player or statistic and prepares for webpage request.
+
+**pga_data/scrape.py**: Working with mapping.py, this file performs the page request and transforms data into basic pandas dataframe
 
 ## Licensing and Acknowledgements
 
-Data currently comes from multiple sources:
-
-- [Sporting News Fantasy](https://www.sportingnews.com/us/fantasy)
-- [CBS Sports Fantasy](https://www.cbssports.com/fantasy/)
-- [ESPN Fantasy](https://www.espn.com/fantasy/)
-- [Yahoo](https://developer.yahoo.com/fantasysports/guide/)
-
+Data currently comes from the [PGA Tour](https://www.pgatour.com/).
