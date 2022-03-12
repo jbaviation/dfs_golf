@@ -28,6 +28,9 @@ class stat:
         # Set url for initial class conditions
         self._set_url()
 
+        # Initilize _data variable
+        self._data = pd.DataFrame()
+
 
     def _check_stat(self, stat):
         """Primary purpose is to confirm that tournament, or year requested exists in particular stat."""
@@ -63,10 +66,20 @@ class stat:
         # stat is now a dictionary
         self._stat = self._check_stat(new_stat)
         self._set_url()
+
+    @property
+    def data(self):
+        return self._data
+
+    @data.setter
+    def data(self, new_data):
+        # Eventually create a _check_data(new_data) function here
+        self._data = new_data
         
     def pull(self):
         """Function to pull data from pgatour.com and put into dataframe"""
-        return pd.read_html(self.url)[1]
+        self.data = pd.read_html(self.url)[1]
+        print("data successfully pulled!")
     
 
 class player:
