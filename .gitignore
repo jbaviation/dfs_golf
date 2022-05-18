@@ -1,5 +1,6 @@
 # Ignore idea files
 .idea/
+.vscode/
 
 # Ignore cache
 pga_data/__pycache__/
