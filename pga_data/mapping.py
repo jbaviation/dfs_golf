@@ -236,7 +236,7 @@ class make_meta:
              output.write(json.dumps(all_map))
                 
                 
-    def make_player_meta(self):
+    def make_player_meta(self, create_temp_file=True):
         """Function works to make the player_meta.json file"""
         import re
         page = requests.get('https://www.pgatour.com/players.html')
@@ -275,7 +275,11 @@ class make_meta:
             list_players.append(player_dict)
             
         # Write to json
-        with open('pga_data/data_files/player_meta.json', 'w') as output:
+        insert_txt = '_temp' if create_temp_file else ''  # append temp to filename
+        file = f'pga_data/data_files/player_meta{insert_txt}.json'
+
+        with open(file, 'w') as output:
             json.dump(list_players, output, indent=6)
+            print(f'{os.path.split(file)[-1]} has been created!')
 
     

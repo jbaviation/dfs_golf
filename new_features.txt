@@ -1,0 +1,3 @@
+This file contains a list of tasks to complete
+- Create function to update pga_data/data_files/*.json files.
+- Scrape player data
