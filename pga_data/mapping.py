@@ -1,10 +1,25 @@
 import difflib
 import json
 import os
+from bs4 import BeautifulSoup
+import requests
+import time
+import json
+import re
 
 
 # Turn the functions below into a class so as to minimize the load on reading webpages
 class mapping:
+    """
+    Attributes
+    ==========
+    player_meta     : list of dicts
+                      Contains details needed from each player to be able to load player data
+    stat_meta       : list of dicts
+                      Contains details needed from each stat category to load specific stats
+    tourney_meta    : dict
+                      Contains years as keys and tournaments played as the values
+    """
     def __init__(self, load_meta_locs=True):
         load_meta_status = self.load_metas() if load_meta_locs else 'Not Loaded'
     
@@ -93,15 +108,9 @@ def combine_dicts(list_of_dicts=[]):
 
 ####### Use the Following Functions for scraping data from pgatour.com ######
 class make_meta:
-    from bs4 import BeautifulSoup
-    import requests
-    import time
-    import json
-    import re
 
     # Create function for finding years available for each stat
-    @staticmethod
-    def get_years(stat_id, soup=None):
+    def get_years(self, stat_id, soup=None):
         if soup is None:
             url = f'https://www.pgatour.com/stats/stat.{stat_id}.html'
 
@@ -130,8 +139,8 @@ class make_meta:
         else: 
             return years
 
-    @staticmethod
-    def get_tourney_dropdown(stat_id, soup=None):
+
+    def get_tourney_dropdown(self, stat_id, soup=None):
         if soup is None:
             # check for dropdown of tournaments
             page = requests.get(f'https://www.pgatour.com/stats/stat.{stat_id}.html')
@@ -140,18 +149,18 @@ class make_meta:
         select_class = "statistics-details-select statistics-details-select--tournament"
         return soup.find(class_=select_class) is not None
 
+
     # Create function for finding tournaments/ids available for each stat
-    @staticmethod
-    def get_tourneys(stat_id, years=None, print_comments=False, check_for_dropdown=False):
+    def get_tourneys(self, stat_id, years=None, print_comments=False, check_for_dropdown=False):
         # Find years if no provided
-        years = get_years(stat_id) if years is None else years
+        years = self.get_years(stat_id) if years is None else years
 
         # select tourney class data
         select_class = "statistics-details-select statistics-details-select--tournament"
 
         # loop thru years to create dict
         tourney_map = {}  # initialize the dictionary
-        tourney_dropdown = get_tourney_dropdown(stat_id)
+        tourney_dropdown = self.get_tourney_dropdown(stat_id)
         print(f'Starting {stat_id}:\n Added', end=' ') if print_comments else None
         for year in years:
             url = f'https://www.pgatour.com/content/pgatour/stats/stat.{stat_id}.y{year}.html'
@@ -176,8 +185,7 @@ class make_meta:
         return tourney_map
 
     # Function for extracting data and putting into proper form for stat_meta
-    @staticmethod
-    def write_stat_meta(maps=None, cats=None):
+    def write_stat_meta(self, maps=None, cats=None):
         if maps is None:
             maps = [shots_gained_map,
                     off_the_tee_map,
@@ -215,8 +223,8 @@ class make_meta:
                 sub_map.append({'stat name': stat, 
                                 'stat id': stat_id,
                                 'stat category': c,
-                                'years': get_years(stat_id, soup),
-                                'tournament option': get_tourney_dropdown(stat_id, soup)
+                                'years': self.get_years(stat_id, soup),
+                                'tournament option': self.get_tourney_dropdown(stat_id, soup)
                                })
                 print(f'  {stat}')
                 time.sleep(5)
@@ -228,8 +236,7 @@ class make_meta:
              output.write(json.dumps(all_map))
                 
                 
-    @staticmethod
-    def make_player_meta():
+    def make_player_meta(self):
         """Function works to make the player_meta.json file"""
         import re
         page = requests.get('https://www.pgatour.com/players.html')
