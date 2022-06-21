@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import datetime as dt
+import re
 import pga_data.mapping as mapping
 
 class stat:
@@ -78,7 +79,35 @@ class stat:
         
     def pull(self):
         """Function to pull data from pgatour.com and put into dataframe"""
-        self.data = pd.read_html(self.url)[1]
+        # Retreive data
+        try:
+            pulled_data = pd.read_html(self.url)[1]
+        except:
+            print("data cannot be properly retrieved from pgatour.com")
+            return
+        
+        ## Clean up columns names and characters in the data
+        # Replace %
+        pulled_data.columns = [re.sub(r'\%','pct',nm) for nm in pulled_data.columns]
+
+        # Replace non alpha-numeric characters
+        pulled_data.columns = [re.sub(r'[^a-zA-Z0-9]+','_', nm).lower().strip('_')
+                               for nm in pulled_data.columns]
+
+        # Change specific columns names
+        pulled_data = pulled_data.rename({'average': 'avg',
+                                          'rank_last_week': 'ranklw', 
+                                          'rank_this_week': 'rank',
+                                          'highest_value': 'max',
+                                          'lowest_value': 'min'}, axis=1)
+        # Handle columns with rankings and ties
+        int_cols = [col for col in pulled_data.columns if 'rank' in col]
+        pulled_data[int_cols] = (pulled_data[int_cols]
+                                 .replace(r'[T|t]','',regex=True)
+                                 .astype('Int64'))
+
+        # Print message
+        self.data = pulled_data
         print("data successfully pulled!")
     
 
