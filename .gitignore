@@ -2,6 +2,9 @@
 .idea/
 .vscode/
 
+# Workspace files
+dfs_golf.code-workspace
+
 # Ignore cache
 pga_data/__pycache__/
 *.pyc
