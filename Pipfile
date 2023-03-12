@@ -7,8 +7,13 @@ name = "pypi"
 numpy = "*"
 pandas = "*"
 beautifulsoup4 = "*"
+requests = "*"
+selenium = "*"
+statsmodels = "*"
+lxml = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "*"

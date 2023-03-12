@@ -114,3 +114,11 @@ class stat:
 class player:
     pass
 
+
+class shots:
+    """This class is setup to provide a means for someone to request shot-wise data
+       for all holes in every tournament.
+    """
+
+    
+
