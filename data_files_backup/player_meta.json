@@ -54,15 +54,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_06004.png"
       },
       {
-            "player last name": "An",
-            "player first name": "Byeong Hun",
-            "player id": "33948",
-            "url": "https://www.pgatour.com/players/player.33948.byeong-hun-an.html",
-            "country": "Korea, Republic of",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33948.png"
-      },
-      {
             "player last name": "Ancer",
             "player first name": "Abraham",
             "player id": "45526",
@@ -70,15 +61,6 @@
             "country": "Mexico",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45526.png"
-      },
-      {
-            "player last name": "Anderson",
-            "player first name": "Mark",
-            "player id": "33120",
-            "url": "https://www.pgatour.com/players/player.33120.mark-anderson.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33120.png"
       },
       {
             "player last name": "Andrade",
@@ -207,15 +189,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20498.png"
       },
       {
-            "player last name": "Baker",
-            "player first name": "Chris",
-            "player id": "33404",
-            "url": "https://www.pgatour.com/players/player.33404.chris-baker.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33404.png"
-      },
-      {
             "player last name": "Baker-Finch",
             "player first name": "Ian",
             "player id": "01049",
@@ -223,6 +196,15 @@
             "country": "Australia",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01049.png"
+      },
+      {
+            "player last name": "Barjon",
+            "player first name": "Paul",
+            "player id": "37212",
+            "url": "https://www.pgatour.com/players/player.37212.paul-barjon.html",
+            "country": "France",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_37212.png"
       },
       {
             "player last name": "Barlow",
@@ -522,15 +504,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25274.png"
       },
       {
-            "player last name": "Bozzelli",
-            "player first name": "Dominic",
-            "player id": "40009",
-            "url": "https://www.pgatour.com/players/player.40009.dominic-bozzelli.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40009.png"
-      },
-      {
             "player last name": "Bradley",
             "player first name": "Keegan",
             "player id": "33141",
@@ -666,6 +639,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01143.png"
       },
       {
+            "player last name": "Buckley",
+            "player first name": "Hayden",
+            "player id": "55708",
+            "url": "https://www.pgatour.com/players/player.55708.hayden-buckley.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_55708.png"
+      },
+      {
             "player last name": "Burgoon",
             "player first name": "Bronson",
             "player id": "29268",
@@ -756,15 +738,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20848.png"
       },
       {
-            "player last name": "Cabrera Bello",
-            "player first name": "Rafa",
-            "player id": "26499",
-            "url": "https://www.pgatour.com/players/player.26499.rafa-cabrera-bello.html",
-            "country": "Spain",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26499.png"
-      },
-      {
             "player last name": "Cairns",
             "player first name": "Brian",
             "player id": "22789",
@@ -799,15 +772,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_12510.png"
-      },
-      {
-            "player last name": "Campos",
-            "player first name": "Rafael",
-            "player id": "32070",
-            "url": "https://www.pgatour.com/players/player.32070.rafael-campos.html",
-            "country": "Puerto Rico",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32070.png"
       },
       {
             "player last name": "Cantlay",
@@ -862,15 +826,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01177.png"
-      },
-      {
-            "player last name": "Castro",
-            "player first name": "Roberto",
-            "player id": "32200",
-            "url": "https://www.pgatour.com/players/player.32200.roberto-castro.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32200.png"
       },
       {
             "player last name": "Catlin",
@@ -1206,15 +1161,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32982.png"
       },
       {
-            "player last name": "Crampton",
-            "player first name": "Bruce",
-            "player id": "01233",
-            "url": "https://www.pgatour.com/players/player.01233.bruce-crampton.html",
-            "country": "Australia",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01233.png"
-      },
-      {
             "player last name": "Crane",
             "player first name": "Ben",
             "player id": "23541",
@@ -1222,6 +1168,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23541.png"
+      },
+      {
+            "player last name": "Creel",
+            "player first name": "Joshua",
+            "player id": "39436",
+            "url": "https://www.pgatour.com/players/player.39436.joshua-creel.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39436.png"
       },
       {
             "player last name": "Crenshaw",
@@ -1510,6 +1465,15 @@
             "country": "Wales",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_22983.png"
+      },
+      {
+            "player last name": "Drewitt",
+            "player first name": "Brett",
+            "player id": "35110",
+            "url": "https://www.pgatour.com/players/player.35110.brett-drewitt.html",
+            "country": "Australia",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35110.png"
       },
       {
             "player last name": "Dubuisson",
@@ -2079,15 +2043,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_12645.png"
       },
       {
-            "player last name": "Gellerman",
-            "player first name": "Michael",
-            "player id": "48045",
-            "url": "https://www.pgatour.com/players/player.48045.michael-gellerman.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48045.png"
-      },
-      {
             "player last name": "Ghim",
             "player first name": "Doug",
             "player id": "52375",
@@ -2104,15 +2059,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01408.png"
-      },
-      {
-            "player last name": "Gibson",
-            "player first name": "Rhein",
-            "player id": "32618",
-            "url": "https://www.pgatour.com/players/player.32618.rhein-gibson.html",
-            "country": "Australia",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32618.png"
       },
       {
             "player last name": "Gilbert",
@@ -2221,15 +2167,6 @@
             "country": "South Africa",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20157.png"
-      },
-      {
-            "player last name": "Gordon",
-            "player first name": "Will",
-            "player id": "56762",
-            "url": "https://www.pgatour.com/players/player.56762.will-gordon.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_56762.png"
       },
       {
             "player last name": "Gore",
@@ -2356,6 +2293,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_06044.png"
+      },
+      {
+            "player last name": "Gutschewski",
+            "player first name": "Scott",
+            "player id": "24980",
+            "url": "https://www.pgatour.com/players/player.24980.scott-gutschewski.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24980.png"
       },
       {
             "player last name": "G\u00f3mez",
@@ -2529,6 +2475,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_28938.png"
       },
       {
+            "player last name": "Hardy",
+            "player first name": "Nick",
+            "player id": "47988",
+            "url": "https://www.pgatour.com/players/player.47988.nick-hardy.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47988.png"
+      },
+      {
             "player last name": "Harman",
             "player first name": "Brian",
             "player id": "27644",
@@ -2545,15 +2500,6 @@
             "country": "Ireland",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20766.png"
-      },
-      {
-            "player last name": "Harrington",
-            "player first name": "Scott",
-            "player id": "27554",
-            "url": "https://www.pgatour.com/players/player.27554.scott-harrington.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27554.png"
       },
       {
             "player last name": "Harris",
@@ -2797,6 +2743,24 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01527.png"
+      },
+      {
+            "player last name": "Hocknull",
+            "player first name": "Craig",
+            "player id": "35409",
+            "url": "https://www.pgatour.com/players/player.35409.craig-hocknull.html",
+            "country": "Australia",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35409.png"
+      },
+      {
+            "player last name": "Hodges",
+            "player first name": "Lee",
+            "player id": "54628",
+            "url": "https://www.pgatour.com/players/player.54628.lee-hodges.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54628.png"
       },
       {
             "player last name": "Hoffman",
@@ -3087,6 +3051,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01571.png"
       },
       {
+            "player last name": "Jaeger",
+            "player first name": "Stephan",
+            "player id": "36799",
+            "url": "https://www.pgatour.com/players/player.36799.stephan-jaeger.html",
+            "country": "Germany",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36799.png"
+      },
+      {
             "player last name": "Jamieson",
             "player first name": "Scott",
             "player id": "31138",
@@ -3193,15 +3166,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01590.png"
-      },
-      {
-            "player last name": "Johnston",
-            "player first name": "Bill",
-            "player id": "01591",
-            "url": "https://www.pgatour.com/players/player.01591.bill-johnston.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01591.png"
       },
       {
             "player last name": "Jones",
@@ -3447,6 +3411,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29478.png"
       },
       {
+            "player last name": "Kitayama",
+            "player first name": "Kurt",
+            "player id": "48117",
+            "url": "https://www.pgatour.com/players/player.48117.kurt-kitayama.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48117.png"
+      },
+      {
             "player last name": "Kite",
             "player first name": "Tom",
             "player id": "01633",
@@ -3535,6 +3508,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36689.png"
+      },
+      {
+            "player last name": "Kohles",
+            "player first name": "Ben",
+            "player id": "36884",
+            "url": "https://www.pgatour.com/players/player.36884.ben-kohles.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36884.png"
       },
       {
             "player last name": "Kok",
@@ -3699,15 +3681,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49766.png"
       },
       {
-            "player last name": "Ledesma",
-            "player first name": "Nelson",
-            "player id": "35230",
-            "url": "https://www.pgatour.com/players/player.35230.nelson-ledesma.html",
-            "country": "Argentina",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35230.png"
-      },
-      {
             "player last name": "Lee",
             "player first name": "Danny",
             "player id": "29926",
@@ -3808,15 +3781,6 @@
       },
       {
             "player last name": "Lewis",
-            "player first name": "J.L.",
-            "player id": "01685",
-            "url": "https://www.pgatour.com/players/player.01685.j-l--lewis.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01685.png"
-      },
-      {
-            "player last name": "Lewis",
             "player first name": "Tom",
             "player id": "35104",
             "url": "https://www.pgatour.com/players/player.35104.tom-lewis.html",
@@ -3843,15 +3807,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_11032.png"
       },
       {
-            "player last name": "Lindheim",
-            "player first name": "Nicholas",
-            "player id": "37278",
-            "url": "https://www.pgatour.com/players/player.37278.nicholas-lindheim.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_37278.png"
-      },
-      {
             "player last name": "Lindsey",
             "player first name": "Pat",
             "player id": "01692",
@@ -3868,6 +3823,15 @@
             "country": "Sweden",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34409.png"
+      },
+      {
+            "player last name": "Lipsky",
+            "player first name": "David",
+            "player id": "36326",
+            "url": "https://www.pgatour.com/players/player.36326.david-lipsky.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36326.png"
       },
       {
             "player last name": "List",
@@ -3942,13 +3906,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01706.png"
       },
       {
-            "player last name": "Lovemark",
-            "player first name": "Jamie",
-            "player id": "29461",
-            "url": "https://www.pgatour.com/players/player.29461.jamie-lovemark.html",
+            "player last name": "Lower",
+            "player first name": "Justin",
+            "player id": "40162",
+            "url": "https://www.pgatour.com/players/player.40162.justin-lower.html",
             "country": "United States",
             "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29461.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40162.png"
       },
       {
             "player last name": "Lowery",
@@ -4230,15 +4194,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01771.png"
       },
       {
-            "player last name": "McCallister",
-            "player first name": "Bob",
-            "player id": "01772",
-            "url": "https://www.pgatour.com/players/player.01772.bob-mccallister.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01772.png"
-      },
-      {
             "player last name": "McCarron",
             "player first name": "Scott",
             "player id": "10585",
@@ -4311,15 +4266,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39976.png"
       },
       {
-            "player last name": "McGee",
-            "player first name": "Jerry",
-            "player id": "01786",
-            "url": "https://www.pgatour.com/players/player.01786.jerry-mcgee.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01786.png"
-      },
-      {
             "player last name": "McGirt",
             "player first name": "William",
             "player id": "31202",
@@ -4345,6 +4291,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01790.png"
+      },
+      {
+            "player last name": "McGreevy",
+            "player first name": "Max",
+            "player id": "51950",
+            "url": "https://www.pgatour.com/players/player.51950.max-mcgreevy.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51950.png"
       },
       {
             "player last name": "McIlroy",
@@ -4570,6 +4525,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26596.png"
+      },
+      {
+            "player last name": "Moore",
+            "player first name": "Taylor",
+            "player id": "49947",
+            "url": "https://www.pgatour.com/players/player.49947.taylor-moore.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49947.png"
       },
       {
             "player last name": "Morgan",
@@ -4869,6 +4833,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01878.png"
       },
       {
+            "player last name": "Novak",
+            "player first name": "Andrew",
+            "player id": "51997",
+            "url": "https://www.pgatour.com/players/player.51997.andrew-novak.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51997.png"
+      },
+      {
             "player last name": "O'Grady",
             "player first name": "Mac",
             "player id": "01884",
@@ -4993,15 +4966,6 @@
             "country": "South Africa",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26329.png"
-      },
-      {
-            "player last name": "Oppenheim",
-            "player first name": "Rob",
-            "player id": "27942",
-            "url": "https://www.pgatour.com/players/player.27942.rob-oppenheim.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27942.png"
       },
       {
             "player last name": "Ormsby",
@@ -5173,6 +5137,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01935.png"
+      },
+      {
+            "player last name": "Pendrith",
+            "player first name": "Taylor",
+            "player id": "40250",
+            "url": "https://www.pgatour.com/players/player.40250.taylor-pendrith.html",
+            "country": "Canada",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40250.png"
       },
       {
             "player last name": "Peoples",
@@ -5517,6 +5490,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46970.png"
       },
       {
+            "player last name": "Rai",
+            "player first name": "Aaron",
+            "player id": "46414",
+            "url": "https://www.pgatour.com/players/player.46414.aaron-rai.html",
+            "country": "England",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46414.png"
+      },
+      {
             "player last name": "Rainaud",
             "player first name": "Adam",
             "player id": "46488",
@@ -5524,6 +5506,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46488.png"
+      },
+      {
+            "player last name": "Ramey",
+            "player first name": "Chad",
+            "player id": "47983",
+            "url": "https://www.pgatour.com/players/player.47983.chad-ramey.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47983.png"
       },
       {
             "player last name": "Ramsay",
@@ -5569,6 +5560,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34360.png"
+      },
+      {
+            "player last name": "Reeves",
+            "player first name": "Seth",
+            "player id": "47856",
+            "url": "https://www.pgatour.com/players/player.47856.seth-reeves.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47856.png"
       },
       {
             "player last name": "Regalado",
@@ -5625,6 +5625,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20127.png"
       },
       {
+            "player last name": "Riley",
+            "player first name": "Davis",
+            "player id": "47995",
+            "url": "https://www.pgatour.com/players/player.47995.davis-riley.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47995.png"
+      },
+      {
             "player last name": "Rinker",
             "player first name": "Larry",
             "player id": "02007",
@@ -5632,15 +5641,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02007.png"
-      },
-      {
-            "player last name": "Roach",
-            "player first name": "Wes",
-            "player id": "35732",
-            "url": "https://www.pgatour.com/players/player.35732.wes-roach.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35732.png"
       },
       {
             "player last name": "Roberts",
@@ -5913,15 +5913,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02084.png"
       },
       {
-            "player last name": "Shelton",
-            "player first name": "Robby",
-            "player id": "46441",
-            "url": "https://www.pgatour.com/players/player.46441.robby-shelton.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46441.png"
-      },
-      {
             "player last name": "Shih-chang",
             "player first name": "Chan",
             "player id": "29078",
@@ -5965,6 +5956,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02091.png"
+      },
+      {
+            "player last name": "Sigg",
+            "player first name": "Greyson",
+            "player id": "51890",
+            "url": "https://www.pgatour.com/players/player.51890.greyson-sigg.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51890.png"
       },
       {
             "player last name": "Sikes",
@@ -6039,6 +6039,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_06567.png"
       },
       {
+            "player last name": "Skinns",
+            "player first name": "David",
+            "player id": "27139",
+            "url": "https://www.pgatour.com/players/player.27139.david-skinns.html",
+            "country": "England",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27139.png"
+      },
+      {
             "player last name": "Slattery",
             "player first name": "Lee",
             "player id": "25321",
@@ -6075,6 +6084,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02104.png"
       },
       {
+            "player last name": "Smalley",
+            "player first name": "Alex",
+            "player id": "46340",
+            "url": "https://www.pgatour.com/players/player.46340.alex-smalley.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46340.png"
+      },
+      {
             "player last name": "Smith",
             "player first name": "Bob",
             "player id": "02105",
@@ -6100,6 +6118,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02106.png"
+      },
+      {
+            "player last name": "Smotherman",
+            "player first name": "Austin",
+            "player id": "50095",
+            "url": "https://www.pgatour.com/players/player.50095.austin-smotherman.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_50095.png"
       },
       {
             "player last name": "Snead",
@@ -6282,15 +6309,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29518.png"
       },
       {
-            "player last name": "Stefani",
-            "player first name": "Shawn",
-            "player id": "33418",
-            "url": "https://www.pgatour.com/players/player.33418.shawn-stefani.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33418.png"
-      },
-      {
             "player last name": "Stenson",
             "player first name": "Henrik",
             "player id": "21528",
@@ -6336,15 +6354,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20580.png"
       },
       {
-            "player last name": "Stone",
-            "player first name": "Brandon",
-            "player id": "35225",
-            "url": "https://www.pgatour.com/players/player.35225.brandon-stone.html",
-            "country": "South Africa",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35225.png"
-      },
-      {
             "player last name": "Storm",
             "player first name": "Graeme",
             "player id": "23969",
@@ -6352,15 +6361,6 @@
             "country": "England",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23969.png"
-      },
-      {
-            "player last name": "Strafaci",
-            "player first name": "Tyler",
-            "player id": "54314",
-            "url": "https://www.pgatour.com/players/player.54314.tyler-strafaci.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54314.png"
       },
       {
             "player last name": "Straka",
@@ -6444,15 +6444,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33545.png"
       },
       {
-            "player last name": "Sucher",
-            "player first name": "Zack",
-            "player id": "33449",
-            "url": "https://www.pgatour.com/players/player.33449.zack-sucher.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33449.png"
-      },
-      {
             "player last name": "Sullivan",
             "player first name": "Andy",
             "player id": "35314",
@@ -6469,15 +6460,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02167.png"
-      },
-      {
-            "player last name": "Summerhays",
-            "player first name": "Daniel",
-            "player id": "25834",
-            "url": "https://www.pgatour.com/players/player.25834.daniel-summerhays.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25834.png"
       },
       {
             "player last name": "Suri",
@@ -6507,6 +6489,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02170.png"
       },
       {
+            "player last name": "Svensson",
+            "player first name": "Adam",
+            "player id": "40115",
+            "url": "https://www.pgatour.com/players/player.40115.adam-svensson.html",
+            "country": "Canada",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40115.png"
+      },
+      {
             "player last name": "Swafford",
             "player first name": "Hudson",
             "player id": "34264",
@@ -6534,6 +6525,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21498.png"
       },
       {
+            "player last name": "Tarren",
+            "player first name": "Callum",
+            "player id": "48699",
+            "url": "https://www.pgatour.com/players/player.48699.callum-tarren.html",
+            "country": "England",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48699.png"
+      },
+      {
             "player last name": "Tataurangi",
             "player first name": "Phil",
             "player id": "12663",
@@ -6541,15 +6541,6 @@
             "country": "New Zealand",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_12663.png"
-      },
-      {
-            "player last name": "Taylor",
-            "player first name": "Ben",
-            "player id": "48119",
-            "url": "https://www.pgatour.com/players/player.48119.ben-taylor.html",
-            "country": "England",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48119.png"
       },
       {
             "player last name": "Taylor",
@@ -6570,15 +6561,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23325.png"
       },
       {
-            "player last name": "Teater",
-            "player first name": "Josh",
-            "player id": "27330",
-            "url": "https://www.pgatour.com/players/player.27330.josh-teater.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27330.png"
-      },
-      {
             "player last name": "Ten Broeck",
             "player first name": "Lance",
             "player id": "02185",
@@ -6595,6 +6577,15 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02190.png"
+      },
+      {
+            "player last name": "Theegala",
+            "player first name": "Sahith",
+            "player id": "51634",
+            "url": "https://www.pgatour.com/players/player.51634.sahith-theegala.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51634.png"
       },
       {
             "player last name": "Thomas",
@@ -6616,6 +6607,15 @@
       },
       {
             "player last name": "Thompson",
+            "player first name": "Curtis",
+            "player id": "10381",
+            "url": "https://www.pgatour.com/players/player.10381.curtis-thompson.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_10381.png"
+      },
+      {
+            "player last name": "Thompson",
             "player first name": "Leonard",
             "player id": "02195",
             "url": "https://www.pgatour.com/players/player.02195.leonard-thompson.html",
@@ -6631,15 +6631,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32150.png"
-      },
-      {
-            "player last name": "Thompson",
-            "player first name": "Rocky",
-            "player id": "02197",
-            "url": "https://www.pgatour.com/players/player.02197.rocky-thompson.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02197.png"
       },
       {
             "player last name": "Thomson",
@@ -6822,6 +6813,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02230.png"
       },
       {
+            "player last name": "van der Walt",
+            "player first name": "Dawie",
+            "player id": "28114",
+            "url": "https://www.pgatour.com/players/player.28114.dawie-van-der-walt.html",
+            "country": "South Africa",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_28114.png"
+      },
+      {
             "player last name": "Van Pelt",
             "player first name": "Bo",
             "player id": "23623",
@@ -6865,15 +6865,6 @@
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48137.png"
-      },
-      {
-            "player last name": "Ventura",
-            "player first name": "Kris",
-            "player id": "35658",
-            "url": "https://www.pgatour.com/players/player.35658.kris-ventura.html",
-            "country": "Norway",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35658.png"
       },
       {
             "player last name": "Verplank",
@@ -7020,15 +7011,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02259.png"
       },
       {
-            "player last name": "Weaver",
-            "player first name": "DeWitt",
-            "player id": "02260",
-            "url": "https://www.pgatour.com/players/player.02260.dewitt-weaver.html",
-            "country": "United States",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_02260.png"
-      },
-      {
             "player last name": "Weekley",
             "player first name": "Boo",
             "player id": "26289",
@@ -7093,9 +7075,9 @@
       },
       {
             "player last name": "Whaley",
-            "player first name": "Vincent",
+            "player first name": "Vince",
             "player id": "51894",
-            "url": "https://www.pgatour.com/players/player.51894.vincent-whaley.html",
+            "url": "https://www.pgatour.com/players/player.51894.vince-whaley.html",
             "country": "United States",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51894.png"
@@ -7209,6 +7191,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49964.png"
       },
       {
+            "player last name": "Wolfe",
+            "player first name": "Jared",
+            "player id": "45540",
+            "url": "https://www.pgatour.com/players/player.45540.jared-wolfe.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45540.png"
+      },
+      {
             "player last name": "Wolff",
             "player first name": "Matthew",
             "player id": "56278",
@@ -7272,6 +7263,24 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33870.png"
       },
       {
+            "player last name": "Wu",
+            "player first name": "Brandon",
+            "player id": "52374",
+            "url": "https://www.pgatour.com/players/player.52374.brandon-wu.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_52374.png"
+      },
+      {
+            "player last name": "Wu",
+            "player first name": "Dylan",
+            "player id": "54783",
+            "url": "https://www.pgatour.com/players/player.54783.dylan-wu.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54783.png"
+      },
+      {
             "player last name": "Wyatt",
             "player first name": "Bobby",
             "player id": "46507",
@@ -7288,6 +7297,15 @@
             "country": "Korea, Republic of",
             "active": false,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24663.png"
+      },
+      {
+            "player last name": "Young",
+            "player first name": "Cameron",
+            "player id": "57366",
+            "url": "https://www.pgatour.com/players/player.57366.cameron-young.html",
+            "country": "United States",
+            "active": false,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_57366.png"
       },
       {
             "player last name": "Young",
@@ -7317,15 +7335,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29939.png"
       },
       {
-            "player last name": "Zhang",
-            "player first name": "Xinjun",
-            "player id": "32254",
-            "url": "https://www.pgatour.com/players/player.32254.xinjun-zhang.html",
-            "country": "China",
-            "active": false,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32254.png"
-      },
-      {
             "player last name": "Zoeller",
             "player first name": "Fuzzy",
             "player id": "02321",
@@ -7353,15 +7362,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_10885.png"
       },
       {
-            "player last name": "An",
-            "player first name": "Byeong Hun",
-            "player id": "33948",
-            "url": "https://www.pgatour.com/players/player.33948.byeong-hun-an.html",
-            "country": "Korea, Republic of",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33948.png"
-      },
-      {
             "player last name": "Ancer",
             "player first name": "Abraham",
             "player id": "45526",
@@ -7369,15 +7369,6 @@
             "country": "Mexico",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45526.png"
-      },
-      {
-            "player last name": "Anderson",
-            "player first name": "Mark",
-            "player id": "33120",
-            "url": "https://www.pgatour.com/players/player.33120.mark-anderson.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33120.png"
       },
       {
             "player last name": "Aphibarnrat",
@@ -7389,15 +7380,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_30978.png"
       },
       {
-            "player last name": "Appleby",
-            "player first name": "Stuart",
-            "player id": "20098",
-            "url": "https://www.pgatour.com/players/player.20098.stuart-appleby.html",
-            "country": "Australia",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20098.png"
-      },
-      {
             "player last name": "Armour",
             "player first name": "Ryan",
             "player id": "19803",
@@ -7405,15 +7387,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_19803.png"
-      },
-      {
-            "player last name": "Atwal",
-            "player first name": "Arjun",
-            "player id": "21407",
-            "url": "https://www.pgatour.com/players/player.21407.arjun-atwal.html",
-            "country": "India",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21407.png"
       },
       {
             "player last name": "Axley",
@@ -7452,13 +7425,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20498.png"
       },
       {
-            "player last name": "Baker",
-            "player first name": "Chris",
-            "player id": "33404",
-            "url": "https://www.pgatour.com/players/player.33404.chris-baker.html",
-            "country": "United States",
+            "player last name": "Barjon",
+            "player first name": "Paul",
+            "player id": "37212",
+            "url": "https://www.pgatour.com/players/player.37212.paul-barjon.html",
+            "country": "France",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33404.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_37212.png"
       },
       {
             "player last name": "Barnes",
@@ -7488,15 +7461,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23614.png"
       },
       {
-            "player last name": "Beljan",
-            "player first name": "Charlie",
-            "player id": "32334",
-            "url": "https://www.pgatour.com/players/player.32334.charlie-beljan.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32334.png"
-      },
-      {
             "player last name": "Berger",
             "player first name": "Daniel",
             "player id": "40026",
@@ -7513,15 +7477,6 @@
             "country": "South Africa",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45522.png"
-      },
-      {
-            "player last name": "Bjerregaard",
-            "player first name": "Lucas",
-            "player id": "33803",
-            "url": "https://www.pgatour.com/players/player.33803.lucas-bjerregaard.html",
-            "country": "Denmark",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33803.png"
       },
       {
             "player last name": "Blair",
@@ -7549,24 +7504,6 @@
             "country": "Sweden",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27895.png"
-      },
-      {
-            "player last name": "Bohn",
-            "player first name": "Jason",
-            "player id": "24507",
-            "url": "https://www.pgatour.com/players/player.24507.jason-bohn.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24507.png"
-      },
-      {
-            "player last name": "Bozzelli",
-            "player first name": "Dominic",
-            "player id": "40009",
-            "url": "https://www.pgatour.com/players/player.40009.dominic-bozzelli.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40009.png"
       },
       {
             "player last name": "Bradley",
@@ -7614,6 +7551,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48084.png"
       },
       {
+            "player last name": "Buckley",
+            "player first name": "Hayden",
+            "player id": "55708",
+            "url": "https://www.pgatour.com/players/player.55708.hayden-buckley.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_55708.png"
+      },
+      {
             "player last name": "Burgoon",
             "player first name": "Bronson",
             "player id": "29268",
@@ -7641,33 +7587,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24925.png"
       },
       {
-            "player last name": "Cabrera Bello",
-            "player first name": "Rafa",
-            "player id": "26499",
-            "url": "https://www.pgatour.com/players/player.26499.rafa-cabrera-bello.html",
-            "country": "Spain",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26499.png"
-      },
-      {
-            "player last name": "Campbell",
-            "player first name": "Chad",
-            "player id": "12510",
-            "url": "https://www.pgatour.com/players/player.12510.chad-campbell.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_12510.png"
-      },
-      {
-            "player last name": "Campos",
-            "player first name": "Rafael",
-            "player id": "32070",
-            "url": "https://www.pgatour.com/players/player.32070.rafael-campos.html",
-            "country": "Puerto Rico",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32070.png"
-      },
-      {
             "player last name": "Cantlay",
             "player first name": "Patrick",
             "player id": "35450",
@@ -7693,24 +7612,6 @@
             "country": "England",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25364.png"
-      },
-      {
-            "player last name": "Castro",
-            "player first name": "Roberto",
-            "player id": "32200",
-            "url": "https://www.pgatour.com/players/player.32200.roberto-castro.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32200.png"
-      },
-      {
-            "player last name": "Catlin",
-            "player first name": "John",
-            "player id": "45734",
-            "url": "https://www.pgatour.com/players/player.45734.john-catlin.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45734.png"
       },
       {
             "player last name": "Cauley",
@@ -7767,15 +7668,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24357.png"
       },
       {
-            "player last name": "Chopra",
-            "player first name": "Daniel",
-            "player id": "20850",
-            "url": "https://www.pgatour.com/players/player.20850.daniel-chopra.html",
-            "country": "Sweden",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20850.png"
-      },
-      {
             "player last name": "Cink",
             "player first name": "Stewart",
             "player id": "20229",
@@ -7783,15 +7675,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20229.png"
-      },
-      {
-            "player last name": "Clark",
-            "player first name": "Tim",
-            "player id": "23135",
-            "url": "https://www.pgatour.com/players/player.23135.tim-clark.html",
-            "country": "South Africa",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23135.png"
       },
       {
             "player last name": "Clark",
@@ -7830,15 +7713,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46435.png"
       },
       {
-            "player last name": "Couch",
-            "player first name": "Chris",
-            "player id": "11123",
-            "url": "https://www.pgatour.com/players/player.11123.chris-couch.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_11123.png"
-      },
-      {
             "player last name": "Couples",
             "player first name": "Fred",
             "player id": "01226",
@@ -7857,13 +7731,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32982.png"
       },
       {
-            "player last name": "Crane",
-            "player first name": "Ben",
-            "player id": "23541",
-            "url": "https://www.pgatour.com/players/player.23541.ben-crane.html",
+            "player last name": "Creel",
+            "player first name": "Joshua",
+            "player id": "39436",
+            "url": "https://www.pgatour.com/players/player.39436.joshua-creel.html",
             "country": "United States",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23541.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39436.png"
       },
       {
             "player last name": "Dahmen",
@@ -7911,15 +7785,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_28089.png"
       },
       {
-            "player last name": "de Jonge",
-            "player first name": "Brendon",
-            "player id": "23638",
-            "url": "https://www.pgatour.com/players/player.23638.brendon-de-jonge.html",
-            "country": "Zimbabwe",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23638.png"
-      },
-      {
             "player last name": "DeChambeau",
             "player first name": "Bryson",
             "player id": "47959",
@@ -7947,6 +7812,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23983.png"
       },
       {
+            "player last name": "Drewitt",
+            "player first name": "Brett",
+            "player id": "35110",
+            "url": "https://www.pgatour.com/players/player.35110.brett-drewitt.html",
+            "country": "Australia",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35110.png"
+      },
+      {
             "player last name": "Dufner",
             "player first name": "Jason",
             "player id": "25686",
@@ -7972,15 +7846,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45609.png"
-      },
-      {
-            "player last name": "Els",
-            "player first name": "Ernie",
-            "player id": "06522",
-            "url": "https://www.pgatour.com/players/player.06522.ernie-els.html",
-            "country": "South Africa",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_06522.png"
       },
       {
             "player last name": "English",
@@ -8055,15 +7920,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_12823.png"
       },
       {
-            "player last name": "Frazar",
-            "player first name": "Harrison",
-            "player id": "21805",
-            "url": "https://www.pgatour.com/players/player.21805.harrison-frazar.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21805.png"
-      },
-      {
             "player last name": "Frittelli",
             "player first name": "Dylan",
             "player id": "29970",
@@ -8118,15 +7974,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29535.png"
       },
       {
-            "player last name": "Garrigus",
-            "player first name": "Robert",
-            "player id": "24358",
-            "url": "https://www.pgatour.com/players/player.24358.robert-garrigus.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24358.png"
-      },
-      {
             "player last name": "Gay",
             "player first name": "Brian",
             "player id": "19846",
@@ -8136,15 +7983,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_19846.png"
       },
       {
-            "player last name": "Gellerman",
-            "player first name": "Michael",
-            "player id": "48045",
-            "url": "https://www.pgatour.com/players/player.48045.michael-gellerman.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48045.png"
-      },
-      {
             "player last name": "Ghim",
             "player first name": "Doug",
             "player id": "52375",
@@ -8152,15 +7990,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_52375.png"
-      },
-      {
-            "player last name": "Gibson",
-            "player first name": "Rhein",
-            "player id": "32618",
-            "url": "https://www.pgatour.com/players/player.32618.rhein-gibson.html",
-            "country": "Australia",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32618.png"
       },
       {
             "player last name": "Gligic",
@@ -8199,24 +8028,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20157.png"
       },
       {
-            "player last name": "Gordon",
-            "player first name": "Will",
-            "player id": "56762",
-            "url": "https://www.pgatour.com/players/player.56762.will-gordon.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_56762.png"
-      },
-      {
-            "player last name": "Gore",
-            "player first name": "Jason",
-            "player id": "22892",
-            "url": "https://www.pgatour.com/players/player.22892.jason-gore.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_22892.png"
-      },
-      {
             "player last name": "Grace",
             "player first name": "Branden",
             "player id": "29974",
@@ -8224,15 +8035,6 @@
             "country": "South Africa",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29974.png"
-      },
-      {
-            "player last name": "Gribble",
-            "player first name": "Cody",
-            "player id": "39954",
-            "url": "https://www.pgatour.com/players/player.39954.cody-gribble.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39954.png"
       },
       {
             "player last name": "Griffin",
@@ -8251,6 +8053,15 @@
             "country": "Argentina",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_31646.png"
+      },
+      {
+            "player last name": "Gutschewski",
+            "player first name": "Scott",
+            "player id": "24980",
+            "url": "https://www.pgatour.com/players/player.24980.scott-gutschewski.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24980.png"
       },
       {
             "player last name": "G\u00f3mez",
@@ -8307,6 +8118,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32448.png"
       },
       {
+            "player last name": "Hardy",
+            "player first name": "Nick",
+            "player id": "47988",
+            "url": "https://www.pgatour.com/players/player.47988.nick-hardy.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47988.png"
+      },
+      {
             "player last name": "Harman",
             "player first name": "Brian",
             "player id": "27644",
@@ -8323,15 +8143,6 @@
             "country": "Ireland",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20766.png"
-      },
-      {
-            "player last name": "Harrington",
-            "player first name": "Scott",
-            "player id": "27554",
-            "url": "https://www.pgatour.com/players/player.27554.scott-harrington.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27554.png"
       },
       {
             "player last name": "Hatton",
@@ -8442,6 +8253,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33490.png"
       },
       {
+            "player last name": "Hodges",
+            "player first name": "Lee",
+            "player id": "54628",
+            "url": "https://www.pgatour.com/players/player.54628.lee-hodges.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54628.png"
+      },
+      {
             "player last name": "Hoffman",
             "player first name": "Charley",
             "player id": "12716",
@@ -8550,15 +8370,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34174.png"
       },
       {
-            "player last name": "Hurley III",
-            "player first name": "Billy",
-            "player id": "29222",
-            "url": "https://www.pgatour.com/players/player.29222.billy-hurley-iii.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29222.png"
-      },
-      {
             "player last name": "Im",
             "player first name": "Sungjae",
             "player id": "39971",
@@ -8568,13 +8379,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39971.png"
       },
       {
-            "player last name": "Jacobson",
-            "player first name": "Freddie",
-            "player id": "21731",
-            "url": "https://www.pgatour.com/players/player.21731.freddie-jacobson.html",
-            "country": "Sweden",
+            "player last name": "Jaeger",
+            "player first name": "Stephan",
+            "player id": "36799",
+            "url": "https://www.pgatour.com/players/player.36799.stephan-jaeger.html",
+            "country": "Germany",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21731.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36799.png"
       },
       {
             "player last name": "Johnson",
@@ -8584,15 +8395,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_30925.png"
-      },
-      {
-            "player last name": "Johnson",
-            "player first name": "Richard",
-            "player id": "26420",
-            "url": "https://www.pgatour.com/players/player.26420.richard-johnson.html",
-            "country": "Sweden",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26420.png"
       },
       {
             "player last name": "Johnson",
@@ -8622,24 +8424,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27974.png"
       },
       {
-            "player last name": "Kaufman",
-            "player first name": "Smylie",
-            "player id": "46440",
-            "url": "https://www.pgatour.com/players/player.46440.smylie-kaufman.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46440.png"
-      },
-      {
-            "player last name": "Kaymer",
-            "player first name": "Martin",
-            "player id": "27408",
-            "url": "https://www.pgatour.com/players/player.27408.martin-kaymer.html",
-            "country": "Germany",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27408.png"
-      },
-      {
             "player last name": "Kelly",
             "player first name": "Jerry",
             "player id": "08075",
@@ -8647,15 +8431,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_08075.png"
-      },
-      {
-            "player last name": "Kim",
-            "player first name": "Chan",
-            "player id": "34587",
-            "url": "https://www.pgatour.com/players/player.34587.chan-kim.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34587.png"
       },
       {
             "player last name": "Kim",
@@ -8692,6 +8467,15 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29478.png"
+      },
+      {
+            "player last name": "Kitayama",
+            "player first name": "Kurt",
+            "player id": "48117",
+            "url": "https://www.pgatour.com/players/player.48117.kurt-kitayama.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48117.png"
       },
       {
             "player last name": "Kizzire",
@@ -8737,6 +8521,15 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36689.png"
+      },
+      {
+            "player last name": "Kohles",
+            "player first name": "Ben",
+            "player id": "36884",
+            "url": "https://www.pgatour.com/players/player.36884.ben-kohles.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36884.png"
       },
       {
             "player last name": "Kokrak",
@@ -8820,15 +8613,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49766.png"
       },
       {
-            "player last name": "Ledesma",
-            "player first name": "Nelson",
-            "player id": "35230",
-            "url": "https://www.pgatour.com/players/player.35230.nelson-ledesma.html",
-            "country": "Argentina",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35230.png"
-      },
-      {
             "player last name": "Lee",
             "player first name": "Danny",
             "player id": "29926",
@@ -8865,15 +8649,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26851.png"
       },
       {
-            "player last name": "Lewis",
-            "player first name": "Tom",
-            "player id": "35104",
-            "url": "https://www.pgatour.com/players/player.35104.tom-lewis.html",
-            "country": "England",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35104.png"
-      },
-      {
             "player last name": "Lingmerth",
             "player first name": "David",
             "player id": "34409",
@@ -8881,6 +8656,15 @@
             "country": "Sweden",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34409.png"
+      },
+      {
+            "player last name": "Lipsky",
+            "player first name": "David",
+            "player id": "36326",
+            "url": "https://www.pgatour.com/players/player.36326.david-lipsky.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36326.png"
       },
       {
             "player last name": "List",
@@ -8910,6 +8694,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01706.png"
       },
       {
+            "player last name": "Lower",
+            "player first name": "Justin",
+            "player id": "40162",
+            "url": "https://www.pgatour.com/players/player.40162.justin-lower.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40162.png"
+      },
+      {
             "player last name": "Lowry",
             "player first name": "Shane",
             "player id": "33204",
@@ -8917,24 +8710,6 @@
             "country": "Ireland",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33204.png"
-      },
-      {
-            "player last name": "MacIntyre",
-            "player first name": "Robert",
-            "player id": "52215",
-            "url": "https://www.pgatour.com/players/player.52215.robert-macintyre.html",
-            "country": "Scotland",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_52215.png"
-      },
-      {
-            "player last name": "MacKenzie",
-            "player first name": "Will",
-            "player id": "24912",
-            "url": "https://www.pgatour.com/players/player.24912.will-mackenzie.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24912.png"
       },
       {
             "player last name": "Mahan",
@@ -9009,6 +8784,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_31202.png"
       },
       {
+            "player last name": "McGreevy",
+            "player first name": "Max",
+            "player id": "51950",
+            "url": "https://www.pgatour.com/players/player.51950.max-mcgreevy.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51950.png"
+      },
+      {
             "player last name": "McIlroy",
             "player first name": "Rory",
             "player id": "28237",
@@ -9016,15 +8800,6 @@
             "country": "Northern Ireland",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_28237.png"
-      },
-      {
-            "player last name": "McLachlin",
-            "player first name": "Parker",
-            "player id": "24449",
-            "url": "https://www.pgatour.com/players/player.24449.parker-mclachlin.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24449.png"
       },
       {
             "player last name": "McNealy",
@@ -9045,15 +8820,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24490.png"
       },
       {
-            "player last name": "Merrick",
-            "player first name": "John",
-            "player id": "27933",
-            "url": "https://www.pgatour.com/players/player.27933.john-merrick.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27933.png"
-      },
-      {
             "player last name": "Merritt",
             "player first name": "Troy",
             "player id": "32640",
@@ -9070,15 +8836,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_01810.png"
-      },
-      {
-            "player last name": "Migliozzi",
-            "player first name": "Guido",
-            "player id": "39834",
-            "url": "https://www.pgatour.com/players/player.39834.guido-migliozzi.html",
-            "country": "Italy",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_39834.png"
       },
       {
             "player last name": "Mitchell",
@@ -9108,6 +8865,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26596.png"
       },
       {
+            "player last name": "Moore",
+            "player first name": "Taylor",
+            "player id": "49947",
+            "url": "https://www.pgatour.com/players/player.49947.taylor-moore.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49947.png"
+      },
+      {
             "player last name": "Morikawa",
             "player first name": "Collin",
             "player id": "50525",
@@ -9115,6 +8881,15 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_50525.png"
+      },
+      {
+            "player last name": "Mullinax",
+            "player first name": "Trey",
+            "player id": "46601",
+            "url": "https://www.pgatour.com/players/player.46601.trey-mullinax.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46601.png"
       },
       {
             "player last name": "Murray",
@@ -9189,6 +8964,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_30163.png"
       },
       {
+            "player last name": "Novak",
+            "player first name": "Andrew",
+            "player id": "51997",
+            "url": "https://www.pgatour.com/players/player.51997.andrew-novak.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51997.png"
+      },
+      {
             "player last name": "O'Hair",
             "player first name": "Sean",
             "player id": "24140",
@@ -9214,15 +8998,6 @@
             "country": "South Africa",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26329.png"
-      },
-      {
-            "player last name": "Oppenheim",
-            "player first name": "Rob",
-            "player id": "27942",
-            "url": "https://www.pgatour.com/players/player.27942.rob-oppenheim.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27942.png"
       },
       {
             "player last name": "Ortiz",
@@ -9261,6 +9036,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29908.png"
       },
       {
+            "player last name": "Pendrith",
+            "player first name": "Taylor",
+            "player id": "40250",
+            "url": "https://www.pgatour.com/players/player.40250.taylor-pendrith.html",
+            "country": "Canada",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40250.png"
+      },
+      {
             "player last name": "Percy",
             "player first name": "Cameron",
             "player id": "22056",
@@ -9288,24 +9072,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_24361.png"
       },
       {
-            "player last name": "Perez",
-            "player first name": "Victor",
-            "player id": "47679",
-            "url": "https://www.pgatour.com/players/player.47679.victor-perez.html",
-            "country": "France",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47679.png"
-      },
-      {
-            "player last name": "Pettersson",
-            "player first name": "Carl",
-            "player id": "25345",
-            "url": "https://www.pgatour.com/players/player.25345.carl-pettersson.html",
-            "country": "Sweden",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25345.png"
-      },
-      {
             "player last name": "Piercy",
             "player first name": "Scott",
             "player id": "25818",
@@ -9313,15 +9079,6 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25818.png"
-      },
-      {
-            "player last name": "Pieters",
-            "player first name": "Thomas",
-            "player id": "33293",
-            "url": "https://www.pgatour.com/players/player.33293.thomas-pieters.html",
-            "country": "Belgium",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33293.png"
       },
       {
             "player last name": "Points",
@@ -9378,15 +9135,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_10213.png"
       },
       {
-            "player last name": "Purdy",
-            "player first name": "Ted",
-            "player id": "21959",
-            "url": "https://www.pgatour.com/players/player.21959.ted-purdy.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21959.png"
-      },
-      {
             "player last name": "Putnam",
             "player first name": "Andrew",
             "player id": "34256",
@@ -9403,6 +9151,24 @@
             "country": "Spain",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46970.png"
+      },
+      {
+            "player last name": "Rai",
+            "player first name": "Aaron",
+            "player id": "46414",
+            "url": "https://www.pgatour.com/players/player.46414.aaron-rai.html",
+            "country": "England",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46414.png"
+      },
+      {
+            "player last name": "Ramey",
+            "player first name": "Chad",
+            "player id": "47983",
+            "url": "https://www.pgatour.com/players/player.47983.chad-ramey.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47983.png"
       },
       {
             "player last name": "Reavie",
@@ -9432,13 +9198,22 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34360.png"
       },
       {
-            "player last name": "Roach",
-            "player first name": "Wes",
-            "player id": "35732",
-            "url": "https://www.pgatour.com/players/player.35732.wes-roach.html",
+            "player last name": "Reeves",
+            "player first name": "Seth",
+            "player id": "47856",
+            "url": "https://www.pgatour.com/players/player.47856.seth-reeves.html",
             "country": "United States",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35732.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47856.png"
+      },
+      {
+            "player last name": "Riley",
+            "player first name": "Davis",
+            "player id": "47995",
+            "url": "https://www.pgatour.com/players/player.47995.davis-riley.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47995.png"
       },
       {
             "player last name": "Rodgers",
@@ -9450,24 +9225,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_36699.png"
       },
       {
-            "player last name": "Rollins",
-            "player first name": "John",
-            "player id": "22913",
-            "url": "https://www.pgatour.com/players/player.22913.john-rollins.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_22913.png"
-      },
-      {
-            "player last name": "Romero",
-            "player first name": "Andres",
-            "player id": "25562",
-            "url": "https://www.pgatour.com/players/player.25562.andres-romero.html",
-            "country": "Argentina",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25562.png"
-      },
-      {
             "player last name": "Rose",
             "player first name": "Justin",
             "player id": "22405",
@@ -9475,15 +9232,6 @@
             "country": "England",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_22405.png"
-      },
-      {
-            "player last name": "Rozner",
-            "player first name": "Antoine",
-            "player id": "46646",
-            "url": "https://www.pgatour.com/players/player.46646.antoine-rozner.html",
-            "country": "France",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46646.png"
       },
       {
             "player last name": "Ryder",
@@ -9531,6 +9279,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47347.png"
       },
       {
+            "player last name": "Schwab",
+            "player first name": "Matthias",
+            "player id": "34610",
+            "url": "https://www.pgatour.com/players/player.34610.matthias-schwab.html",
+            "country": "Austria",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34610.png"
+      },
+      {
             "player last name": "Schwartzel",
             "player first name": "Charl",
             "player id": "26331",
@@ -9567,13 +9324,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20645.png"
       },
       {
-            "player last name": "Shelton",
-            "player first name": "Robby",
-            "player id": "46441",
-            "url": "https://www.pgatour.com/players/player.46441.robby-shelton.html",
+            "player last name": "Sigg",
+            "player first name": "Greyson",
+            "player id": "51890",
+            "url": "https://www.pgatour.com/players/player.51890.greyson-sigg.html",
             "country": "United States",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46441.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51890.png"
       },
       {
             "player last name": "Simpson",
@@ -9594,6 +9351,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_06567.png"
       },
       {
+            "player last name": "Skinns",
+            "player first name": "David",
+            "player id": "27139",
+            "url": "https://www.pgatour.com/players/player.27139.david-skinns.html",
+            "country": "England",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27139.png"
+      },
+      {
             "player last name": "Sloan",
             "player first name": "Roger",
             "player id": "33486",
@@ -9603,13 +9369,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33486.png"
       },
       {
-            "player last name": "Slocum",
-            "player first name": "Heath",
-            "player id": "22293",
-            "url": "https://www.pgatour.com/players/player.22293.heath-slocum.html",
+            "player last name": "Smalley",
+            "player first name": "Alex",
+            "player id": "46340",
+            "url": "https://www.pgatour.com/players/player.46340.alex-smalley.html",
             "country": "United States",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_22293.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_46340.png"
       },
       {
             "player last name": "Smith",
@@ -9619,6 +9385,15 @@
             "country": "Australia",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35891.png"
+      },
+      {
+            "player last name": "Smotherman",
+            "player first name": "Austin",
+            "player id": "50095",
+            "url": "https://www.pgatour.com/players/player.50095.austin-smotherman.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_50095.png"
       },
       {
             "player last name": "Snedeker",
@@ -9684,15 +9459,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29518.png"
       },
       {
-            "player last name": "Stefani",
-            "player first name": "Shawn",
-            "player id": "33418",
-            "url": "https://www.pgatour.com/players/player.33418.shawn-stefani.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33418.png"
-      },
-      {
             "player last name": "Stenson",
             "player first name": "Henrik",
             "player id": "21528",
@@ -9700,24 +9466,6 @@
             "country": "Sweden",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_21528.png"
-      },
-      {
-            "player last name": "Stone",
-            "player first name": "Brandon",
-            "player id": "35225",
-            "url": "https://www.pgatour.com/players/player.35225.brandon-stone.html",
-            "country": "South Africa",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35225.png"
-      },
-      {
-            "player last name": "Strafaci",
-            "player first name": "Tyler",
-            "player id": "54314",
-            "url": "https://www.pgatour.com/players/player.54314.tyler-strafaci.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54314.png"
       },
       {
             "player last name": "Straka",
@@ -9774,22 +9522,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_31560.png"
       },
       {
-            "player last name": "Sucher",
-            "player first name": "Zack",
-            "player id": "33449",
-            "url": "https://www.pgatour.com/players/player.33449.zack-sucher.html",
-            "country": "United States",
+            "player last name": "Svensson",
+            "player first name": "Adam",
+            "player id": "40115",
+            "url": "https://www.pgatour.com/players/player.40115.adam-svensson.html",
+            "country": "Canada",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33449.png"
-      },
-      {
-            "player last name": "Sullivan",
-            "player first name": "Andy",
-            "player id": "35314",
-            "url": "https://www.pgatour.com/players/player.35314.andy-sullivan.html",
-            "country": "England",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35314.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_40115.png"
       },
       {
             "player last name": "Swafford",
@@ -9801,13 +9540,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_34264.png"
       },
       {
-            "player last name": "Taylor",
-            "player first name": "Ben",
-            "player id": "48119",
-            "url": "https://www.pgatour.com/players/player.48119.ben-taylor.html",
+            "player last name": "Tarren",
+            "player first name": "Callum",
+            "player id": "48699",
+            "url": "https://www.pgatour.com/players/player.48699.callum-tarren.html",
             "country": "England",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48119.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_48699.png"
       },
       {
             "player last name": "Taylor",
@@ -9828,13 +9567,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_23325.png"
       },
       {
-            "player last name": "Teater",
-            "player first name": "Josh",
-            "player id": "27330",
-            "url": "https://www.pgatour.com/players/player.27330.josh-teater.html",
+            "player last name": "Theegala",
+            "player first name": "Sahith",
+            "player id": "51634",
+            "url": "https://www.pgatour.com/players/player.51634.sahith-theegala.html",
             "country": "United States",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27330.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51634.png"
       },
       {
             "player last name": "Thomas",
@@ -9844,6 +9583,15 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_33448.png"
+      },
+      {
+            "player last name": "Thompson",
+            "player first name": "Curtis",
+            "player id": "10381",
+            "url": "https://www.pgatour.com/players/player.10381.curtis-thompson.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_10381.png"
       },
       {
             "player last name": "Thompson",
@@ -9918,13 +9666,13 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29484.png"
       },
       {
-            "player last name": "Uresti",
-            "player first name": "Omar",
-            "player id": "08385",
-            "url": "https://www.pgatour.com/players/player.08385.omar-uresti.html",
-            "country": "United States",
+            "player last name": "van der Walt",
+            "player first name": "Dawie",
+            "player id": "28114",
+            "url": "https://www.pgatour.com/players/player.28114.dawie-van-der-walt.html",
+            "country": "South Africa",
             "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_08385.png"
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_28114.png"
       },
       {
             "player last name": "Van Pelt",
@@ -9961,15 +9709,6 @@
             "country": "Venezuela, Bolivarian Republic of",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_27064.png"
-      },
-      {
-            "player last name": "Ventura",
-            "player first name": "Kris",
-            "player id": "35658",
-            "url": "https://www.pgatour.com/players/player.35658.kris-ventura.html",
-            "country": "Norway",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_35658.png"
       },
       {
             "player last name": "Villegas",
@@ -10026,15 +9765,6 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_25804.png"
       },
       {
-            "player last name": "Weekley",
-            "player first name": "Boo",
-            "player id": "26289",
-            "url": "https://www.pgatour.com/players/player.26289.boo-weekley.html",
-            "country": "United States",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_26289.png"
-      },
-      {
             "player last name": "Weir",
             "player first name": "Mike",
             "player id": "10423",
@@ -10063,30 +9793,12 @@
       },
       {
             "player last name": "Whaley",
-            "player first name": "Vincent",
+            "player first name": "Vince",
             "player id": "51894",
-            "url": "https://www.pgatour.com/players/player.51894.vincent-whaley.html",
+            "url": "https://www.pgatour.com/players/player.51894.vince-whaley.html",
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_51894.png"
-      },
-      {
-            "player last name": "Wi",
-            "player first name": "Charlie",
-            "player id": "20160",
-            "url": "https://www.pgatour.com/players/player.20160.charlie-wi.html",
-            "country": "Korea, Republic of",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_20160.png"
-      },
-      {
-            "player last name": "Wiesberger",
-            "player first name": "Bernd",
-            "player id": "29454",
-            "url": "https://www.pgatour.com/players/player.29454.bernd-wiesberger.html",
-            "country": "Austria",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_29454.png"
       },
       {
             "player last name": "Wilkinson",
@@ -10116,6 +9828,15 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_49964.png"
       },
       {
+            "player last name": "Wolfe",
+            "player first name": "Jared",
+            "player id": "45540",
+            "url": "https://www.pgatour.com/players/player.45540.jared-wolfe.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_45540.png"
+      },
+      {
             "player last name": "Wolff",
             "player first name": "Matthew",
             "player id": "56278",
@@ -10143,6 +9864,33 @@
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_08793.png"
       },
       {
+            "player last name": "Wu",
+            "player first name": "Brandon",
+            "player id": "52374",
+            "url": "https://www.pgatour.com/players/player.52374.brandon-wu.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_52374.png"
+      },
+      {
+            "player last name": "Wu",
+            "player first name": "Dylan",
+            "player id": "54783",
+            "url": "https://www.pgatour.com/players/player.54783.dylan-wu.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_54783.png"
+      },
+      {
+            "player last name": "Young",
+            "player first name": "Cameron",
+            "player id": "57366",
+            "url": "https://www.pgatour.com/players/player.57366.cameron-young.html",
+            "country": "United States",
+            "active": true,
+            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_57366.png"
+      },
+      {
             "player last name": "Zalatoris",
             "player first name": "Will",
             "player id": "47483",
@@ -10150,14 +9898,5 @@
             "country": "United States",
             "active": true,
             "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_47483.png"
-      },
-      {
-            "player last name": "Zhang",
-            "player first name": "Xinjun",
-            "player id": "32254",
-            "url": "https://www.pgatour.com/players/player.32254.xinjun-zhang.html",
-            "country": "China",
-            "active": true,
-            "image": "https://res.cloudinary.com/pga-tour/image/upload/c_fill,g_face:center,h_294,q_auto,w_220/headshots_32254.png"
       }
 ]

@@ -5,7 +5,18 @@ from bs4 import BeautifulSoup
 import requests
 import time
 import json
+from pathlib import Path
+import web_scraping_tools
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import NoSuchElementException
 import re
+
+driver_loc = web_scraping_tools.get_chromedriver()
 
 
 # Turn the functions below into a class so as to minimize the load on reading webpages
@@ -107,7 +118,8 @@ def combine_dicts(list_of_dicts=[]):
     return dict_combined
 
 ####### Use the Following Functions for scraping data from pgatour.com ######
-class make_meta:
+class stat_make_meta:
+    """Class to make meta json files for easy reading of stat categories."""
 
     # Create function for finding years available for each stat
     def get_years(self, stat_id, soup=None):
@@ -282,4 +294,149 @@ class make_meta:
             json.dump(list_players, output, indent=6)
             print(f'{os.path.split(file)[-1]} has been created!')
 
+
+class shot_make_meta:
+    """Class to make meta json files for easy reading of schedule, round, and shot data."""
+
+    def __make_tourney_links(self, season):
+        """Gets specific season links.
+        
+        Parameters
+        ----------
+        season : str or int
+            PGA Tour season. Some seasons consist of multiple years (i.e. 2020-2021), while others
+            are individual years (i.e. 2013).  The inputed season must be an option on the season 
+            dropdown of https://www.pgatour.com/schedule/
+        """
+
+        start_url = 'https://www.pgatour.com/schedule'
+        base_url = 'https://www.pgatour.com'
+
+        # Initiate webdriver
+        s = Service(driver_loc)
+        driver = webdriver.Chrome(service=s)
+        driver.get(start_url)
+
+        # Set view to full schedule
+        button_id = 'menu-button-:rr:'
+        try:
+            WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, button_id)))
+        except NoSuchElementException:
+            raise NoSuchElementException(f'Dropdown for view is NOT FOUND')
+        view_button = driver.find_element('id', button_id)
+        view_button.click()
+
+        button_id = 'menu-list-:rr:-menuitem-:ru:'
+        try:
+            WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, button_id)))
+        except NoSuchElementException:
+            raise NoSuchElementException(f'Dropdown for select view is NOT FOUND')
+        full_schedule_button = driver.find_element('id', button_id)
+        full_schedule_button.click()
+
+        ## Set season to desired season
+        # Select dropdown
+        button_id = 'menu-button-:rd:'
+        try:
+            WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, button_id)))
+        except NoSuchElementException:
+            raise NoSuchElementException(f'Dropdown for select season is NOT FOUND')
+
+        season_button = driver.find_element('id', button_id)
+        season_button.click()
+
+        # Read season options
+        soup = BeautifulSoup(driver.page_source, 'lxml')
+        season_buttons = soup.find(attrs={'id': 'menu-list-:rd:'}).find_all('button')
+        buttons = {button.text: button.get('id') for button in season_buttons}
+        """buttons is of form {year: id}"""
+
+        # Confirm season is in buttons
+        self.season_options = list(buttons.keys())
+        # print(f'Season options include:\n{list(buttons.keys())}')
+        if season not in buttons.keys():
+            raise IndexError(f'Season "{season}" is not an option for this page.')
+
+        # Select the correct season
+        id_ = buttons[season]
+        select_season_button = driver.find_element('id', id_)
+        select_season_button.click()
+
+        # Wait for page to change then, get the soup
+        time.sleep(5)  # can't get other waits to work
+        
+        # Get tournament name and links from each tournament in view
+        soup = BeautifulSoup(driver.page_source, 'lxml')
+
+        class_1 = 'css-k8jakh'  # top level class
+        class_2 = 'css-yor8sx'  # 2nd level class
+        class_3 = 'css-0'       # 3rd level class
+        class_4 = 'chakra-text css-vgdvwe'  # 4th level class
+
+        # Set different class values if season is single year
+        if re.search(r'^[0-9]{4}$', season):
+            class_1 = 'css-k8jakh'
+            class_2 = 'css-1x95lhs'
+            class_3 = 'css-g0elqx'
+            class_4 = 'chakra-text css-vgdvwe'
+
+        tourneys = []
+        for whole_season in soup.find(attrs={'class': class_1}).find_all(attrs={'class': class_2}):
+            for tourney in whole_season.find_all(attrs={'class': class_3}):
+                tourney_dict = {}   # initialize new tourney_dict
+
+                # Attempt to get link
+                try:
+                    tourney_link = tourney.find_all('a', href=True)[0]['href']
+                    if not re.search(r'^/tournaments/', tourney_link):
+                        tourney_dict['tournament_link'] = None
+                    else:
+                        tourney_dict['tournament_link'] = base_url + tourney_link
+                except (IndexError, AttributeError):
+                    tourney_dict['tournament_link'] = None
+
+                # Attempt to get tournament name
+                try:
+                    tourney_dict['tournament_name'] = tourney.find(attrs={'class': class_4}).text
+                except (IndexError, AttributeError):
+                    tourney_dict['tournament_name'] = None
+
+                # Pass if all values are none
+                if not any(tourney_dict.values()):
+                    continue
+                tourneys.append(tourney_dict)
+
+        # Closeout driver
+        driver.quit()
+       
+        return tourneys
     
+
+    def make_tourney_links(self, seasons, create_file=True):
+        """Function to get all tourney links for all inputted seasons.
+        
+        Parameters
+        ----------
+        seasons : list of [str or int]
+            List of PGA Tour seasons which are to be combined. Some seasons consist of multiple 
+            years (i.e. 2020-2021), while others are individual years (i.e. 2013).  The inputed 
+            season must be an option on the season dropdown of https://www.pgatour.com/schedule/
+        create_file : bool, default=True
+            Whether or not to create a json file.  Defaulted to true as a precaution. When this is
+            set to false, any existing data file will be overwritten.
+        """
+        # Extend each tourney links
+        tourney_links = []
+        for season in seasons:
+            tourney_links.extend(self.__make_tourney_links(season))
+
+        # Output file
+        if create_file:
+            base_path = Path('pga_data/data_files/')
+            file = base_path / 'tourney_links.json'
+            with open(file, 'w') as f:
+                json.dump(tourney_links, f, indent=6)
+                print(f'{os.path.split(file)[-1]} has been created!')
+
+        # Return list of all tournament links
+        return tourney_links
